@@ -1,18 +1,23 @@
 /* Variables */
 
+:root {
+    --color-header-hr-star-footer-bottom: #2C3E50;
+    --color-bg-light-green: #1ABC9C;
+    --color-title-no-bg: #333333;
+    --color-bg-footer-top: #3A546D;
+    --color-border-bottom: #CCCCCC;
+}
 
 
 /* debug */
 
-
-
 .debug nav{
-    background-color:#2C3E50;
+    background-color:var(--color-header-hr-star-footer-bottom);
     height: 88px;
 }
 
 .debug .hero{
-    background-color:#1ABC9C;
+    background-color: var(--color-bg-light-green);
     height: 592px;
 }
 
@@ -21,19 +26,45 @@
 }
 
 .debug .about{
-    background-color:#1ABC9C;
+    background-color: var(--color-bg-light-green);
     height:503px;
+}
+
+.debug .about_text{
+    background-color: var(--color-border-bottom);
+    height:200px;
 }
 
 .debug .contact{
     height: 680px;
 }
 
+.debug .contact_top, .debug .contact_bottom{
+    background-color: var(--color-bg-light-green);
+    height:200px;
+}
+
 .debug .card{
     background-color: aqua;
-    height:260px;
+    height:100px;
 }
 
 .debug .about_text{
     background-color: azure;
+}
+
+.debug .footer_top{
+    background-color: #3A546D;
+    height: 228px;
+    
+}
+
+.debug .location_info, .debug .web_info, .debug .freelancer_info {
+    background-color: antiquewhite;
+    height:50px;
+}
+
+.debug .footer_bottom{
+    background-color: var(--color-header-hr-star-footer-bottom) ;
+    height:114px;
 }
