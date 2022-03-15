@@ -1,0 +1,39 @@
+/* Variables */
+
+
+
+/* debug */
+
+
+
+.debug nav{
+    background-color:#2C3E50;
+    height: 88px;
+}
+
+.debug .hero{
+    background-color:#1ABC9C;
+    height: 592px;
+}
+
+.debug .portfolio{
+    height:845px;
+}
+
+.debug .about{
+    background-color:#1ABC9C;
+    height:503px;
+}
+
+.debug .contact{
+    height: 680px;
+}
+
+.debug .card{
+    background-color: aqua;
+    height:260px;
+}
+
+.debug .about_text{
+    background-color: azure;
+}
