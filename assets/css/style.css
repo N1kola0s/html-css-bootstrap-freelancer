@@ -151,8 +151,13 @@ img{
 
 /* #region FOOTER */
 
-footer span{
+.freelancer_info span{
     color:var(--color-bg-light-green);
+}
+
+.social{
+    height:60px;
+    width:60px;
 }
 
 /* #endregion */
