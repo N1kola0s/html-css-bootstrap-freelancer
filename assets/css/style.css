@@ -10,15 +10,22 @@
 
 /* common */
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 h2{
     color: var(--color-title-no-bg);
 }
+
+
 
 
 img{
     width: 100%;
     object-fit: cover;
 }
+
 
 
 .bg_freelancer_primary{
@@ -46,7 +53,7 @@ img{
 
 .interruption hr{
     height: 5px;
-    width: 13%;
+    width: 15%;
 }
 
 /* PORTFOLIO */
