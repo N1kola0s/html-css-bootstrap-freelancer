@@ -8,13 +8,22 @@
     --color-border-bottom: #CCCCCC;
 }
 
+/* common */
+
+.bg_freelancer_primary{
+    background-color: var(--color-bg-light-green);
+}
+
+.bg_freelancer_secondary{
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
 
 /* debug */
 
-.debug nav{
+/* .debug nav{
     background-color:var(--color-header-hr-star-footer-bottom);
     height: 88px;
-}
+} */
 
 .debug .hero{
     background-color: var(--color-bg-light-green);
