@@ -8,94 +8,18 @@
     --color-border-bottom: #CCCCCC;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: black!important;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    black!important;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    black!important;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    black!important;
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-   color:    black!important;
-}
 
-::placeholder { 
-    color:    black!important;
- }
-
-
-/* common */
-
-*{
-    font-family: 'Roboto', sans-serif;
-}
-
-h2{
-    color: var(--color-title-no-bg);
-}
-
-footer span{
-    color:var(--color-bg-light-green);
-}
-
-
-img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.bg_freelancer_primary{
-    background-color: var(--color-bg-light-green);
-}
-
-.bg_freelancer_tertiary{
-    background-color: var(--color-bg-footer-top);
-}
-
-.bg_hr{
-    background-color: var(--color-header-hr-star-footer-bottom);
-}
-
-.bg_freelancer_secondary{
-    background-color: var(--color-header-hr-star-footer-bottom);
-}
-
-
-/* HERO */
-
-.hero_top .hero_image{
-    height:260px;
-    width: auto;
-}
-
-.interruption hr{
-    height: 5px;
-    width: 15%;
-}
-
-/* PORTFOLIO */
-
-
-
-
-/* debug */
+/* #region DEBUG */
 
 .debug nav{
     background-color:var(--color-header-hr-star-footer-bottom);
     height: 88px;
 }
 
-/* .debug .hero{
+ .debug .hero{
     background-color: var(--color-bg-light-green);
     height: 592px;
-} */
+} 
 
 .debug .portfolio{
     height:845px;
@@ -144,3 +68,95 @@ img{
     background-color: var(--color-header-hr-star-footer-bottom) ;
     height:114px;
 }
+
+/* #endregion */
+
+/* #region PLACEHOLDER */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black!important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    black!important;
+}
+
+::placeholder { 
+    color:    black!important;
+ }
+
+ /* #endregion */
+
+/*#region COMMON */
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: var(--color-title-no-bg);
+}
+
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg_freelancer_primary{
+    background-color: var(--color-bg-light-green);
+}
+
+.bg_freelancer_tertiary{
+    background-color: var(--color-bg-footer-top);
+}
+
+.bg_hr{
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+.bg_freelancer_secondary{
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+/* #endregion */
+
+
+
+/* #region MAIN */
+
+/* Hero */
+
+.hero_top .hero_image{
+    height:260px;
+    width: auto;
+}
+
+.interruption hr{
+    height: 5px;
+    width: 15%;
+}
+
+/*#endregion  */
+
+/* #region FOOTER */
+
+footer span{
+    color:var(--color-bg-light-green);
+}
+
+/* #endregion */
+
+
+
+
