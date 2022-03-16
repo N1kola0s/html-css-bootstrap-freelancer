@@ -18,7 +18,9 @@ h2{
     color: var(--color-title-no-bg);
 }
 
-
+footer span{
+    color:var(--color-bg-light-green);
+}
 
 
 img{
@@ -28,15 +30,20 @@ img{
 
 
 
+
 .bg_freelancer_primary{
     background-color: var(--color-bg-light-green);
 }
 
-.bg_freelancer_secondary{
-    background-color: var(--color-header-hr-star-footer-bottom);
+.bg_freelancer_tertiary{
+    background-color: var(--color-bg-footer-top);
 }
 
 .bg_hr{
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+.bg_freelancer_secondary{
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
