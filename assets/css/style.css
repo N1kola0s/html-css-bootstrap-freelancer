@@ -8,6 +8,29 @@
     --color-border-bottom: #CCCCCC;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black!important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    black!important;
+}
+
+::placeholder { 
+    color:    black!important;
+ }
+
+
 /* common */
 
 *{
@@ -28,9 +51,6 @@ img{
     object-fit: cover;
 }
 
-
-
-
 .bg_freelancer_primary{
     background-color: var(--color-bg-light-green);
 }
@@ -47,9 +67,6 @@ img{
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-.divisor{
-    color:var(--color-header-hr-star-footer-bottom);
-}
 
 /* HERO */
 
