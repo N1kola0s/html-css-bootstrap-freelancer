@@ -10,6 +10,8 @@
 
 /* common */
 
+
+
 .bg_freelancer_primary{
     background-color: var(--color-bg-light-green);
 }
@@ -18,17 +20,30 @@
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
+img{
+    width: 100%;
+}
+
+.hero_top .hero_image{
+    height:260px;
+    width: auto;
+}
+
+.interruption hr{
+    height: 5px;
+    width: 13%;
+}
 /* debug */
 
-/* .debug nav{
+.debug nav{
     background-color:var(--color-header-hr-star-footer-bottom);
     height: 88px;
-} */
+}
 
-.debug .hero{
+/* .debug .hero{
     background-color: var(--color-bg-light-green);
     height: 592px;
-}
+} */
 
 .debug .portfolio{
     height:845px;
