@@ -10,6 +10,15 @@
 
 /* common */
 
+h2{
+    color: var(--color-title-no-bg);
+}
+
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
 
 
 .bg_freelancer_primary{
@@ -20,9 +29,15 @@
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-img{
-    width: 100%;
+.bg_hr{
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
+
+.divisor{
+    color:var(--color-header-hr-star-footer-bottom);
+}
+
+/* HERO */
 
 .hero_top .hero_image{
     height:260px;
@@ -33,6 +48,12 @@ img{
     height: 5px;
     width: 13%;
 }
+
+/* PORTFOLIO */
+
+
+
+
 /* debug */
 
 .debug nav{
